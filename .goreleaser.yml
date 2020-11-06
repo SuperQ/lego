@@ -52,5 +52,14 @@ archives:
       - LICENSE
       - CHANGELOG.md
 
+nfpms:
+  - homepage: https://go-acme.github.io/lego/
+    description: Let's Encrypt client and ACME library written in Go.
+    license: MIT
+    formats:
+      - deb
+      - rpm
+    bindir: /usr/bin
+
 release:
   disable: true
